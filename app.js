@@ -46,6 +46,7 @@ const render = function (data) {
   ipEl.textContent = ip;
   locationEl.textContent = `${city}, ${country}`;
   timezoneEl.textContent = timezone;
+  ispEl.textContent = isp;
 
   renderMap(lat, lng);
 };
